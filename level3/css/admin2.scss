@@ -1,0 +1,189 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 1980px;
+    min-width: 576px;
+    height: 100%;
+    padding: 0px;
+    background-color: #F9F9F9;
+}
+
+p {
+    margin: 0;
+}
+
+.menu-wrap {
+    width: 130px;
+    height: 100%;
+    display: flex;
+    position: fixed;
+    z-index: 3;
+    flex-direction: column;
+    gap: 50px;
+    padding: 28px 17px 28px 17px;
+    color: white;
+    
+    text-align: right;
+    background-color: #494DB4;
+    transition: transform 0.7s, text-align 0s 2s; /* transform은 즉시, text-align은 0.5초 뒤에 변화 */
+    transform: translateX(-80px);
+}
+
+.menu-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap : 15px;
+
+
+    p {
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    i {
+        font-size: 18px;
+    }
+}
+
+.menu-wrap:hover {
+    transform: translateX(0px);
+    text-align: left;
+}
+
+.menu-wrap:hover .menu-flex{
+    flex-direction: row-reverse; /* 요소들의 순서를 반대로 */
+    justify-content: start;
+}
+
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 3px 3px #e4e4e4;
+}
+
+.search-wrap {
+    width: 200px;
+    left : 70px;
+
+    transition: all 1s;
+}
+
+.search-wrap:focus-within {
+    width: 300px; /* focus 상태일 때 확장 */
+}
+
+.search {
+    width: 100%;
+    border: 1px solid #343A3F;
+    color: #8E8E8C;
+
+}
+
+.search-btn {
+    color: white;
+    background-color: #343A3F;
+}
+
+.nav-content {
+    padding: 20px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    font-size: 20px;
+    
+    color: #8E8E8C;
+
+    p {
+        margin: 0px;
+        font-size: 18px;
+    }
+}
+
+.main-cont {
+    padding: 30px 20px 30px 70px;
+}
+
+.card-effect-blue {
+    border-left: 5px solid #8FCCE8;
+}
+
+.card-effect-green {
+    border-left: 5px solid #4CC060;
+}
+
+.card-effect-yellow {
+    border-left: 5px solid #F1CB66;
+}
+
+.card-effect-purple {
+    border-left: 5px solid #494DB4;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    // flex-wrap: wrap; ?????? tq
+}
+
+.card-wrap{
+    width : 100%;
+    height: 130px;
+    padding: 10px 20px 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px #e4e4e4;
+
+    i {
+        font-size: 36px;
+        color: #8E8E8C;
+    }
+}
+
+
+.card-info {
+
+    p {
+        margin: 5px 0px 5px 0px;
+    }
+
+    .card-info-title {
+        font-size: 18px;
+        font-weight: 500;
+        color: #808080;
+    }
+
+    .card-info-num {
+        font-size: 24px;
+        font-weight: 700;
+        color: #000000;
+    }
+}
+
+.white-box {
+    width: 100%;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px #e4e4e4;
+}
+
+.font-size-18px {
+    font-size: 18px;
+}
+
+.list-group-item.active {
+    background-color: #FAFAFA;
+    color: #343A3F;
+    border: var(--bs-list-group-border-width) solid var(--bs-list-group-border-color);
+}

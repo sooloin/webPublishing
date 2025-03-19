@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Pretendard';
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap; /* 자식 요소 줄바꿈 허용 */
+    text-align: center;
+    justify-content: space-between; /* 간격 균일하게 설정 */
+    gap: 20px; /* 박스 간 간격 추가 */
+}
+
+.content i {
+    background-color: hsla(216, 16%, 75%, 0.534);
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    padding: 16px;
+    color: rgb(149, 116, 205);
+}
+
+.box {
+    flex: 1 1 calc(25% - 20px); /* 기본 너비: 25% */
+    padding: 20px;
+    background-color: palegoldenrod;
+}
+
+/* 테블릿 사이즈: 2 x 2 */
+@media screen and (max-width: 1200px) {
+    .box {
+        flex: 1 1 calc(50% - 20px); /* 너비: 50% */
+    }
+}
+
+/* 모바일 사이즈: 1 x 1 x 1 x 1 */
+@media screen and (max-width: 700px) {
+    .box {
+        flex: 1 1 100%; /* 너비: 100% */
+    }
+}

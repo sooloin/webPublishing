@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'Pretendard';
+    src : url(../font/PretendardVariable.woff2)
+}
+
+
+.main-btn {
+    padding: 15px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+
+    font-family: 'Pretendard';
+}
+
+
+.bg-red {
+    background-color: pink;
+}
+
+.bg-blue {
+    background-color: skyblue;
+}
+
+
+.f-small {
+    font-size : 12px;
+}
+
+.f-mid {
+    font-size : 14px;
+}
+
+.f-lg {
+    font-size : 18px;
+}

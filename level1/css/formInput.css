@@ -1,0 +1,107 @@
+body {
+    background-color: gray;
+    position: relative;
+
+}
+
+* {
+    box-sizing: border-box; /* 모든 요소에 적용 */
+}
+
+p {
+    font-weight: 500;
+    margin-bottom: 1%; /*줄간격 조정정*/
+    font-size: 14px;
+    font-family: 'Pretendard';
+}
+
+input, textarea {
+    padding: 7px 0px 7px 10px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    font-size: 12px;
+    font-family: 'Pretendard';
+}
+
+/* input [type=email] {
+    width: 100%;
+    
+} 사실 이건 없어도 됨... */
+
+
+.container {
+    width: 450px;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    padding: 0px 45px 30px 45px;
+
+    position: absolute;
+
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+
+
+.Title {
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 40px;
+
+}
+
+.emailBox {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.inputEmail {
+    width: 100%;
+}
+
+.nameBox {
+    display: flex;
+    justify-content: space-between;
+}
+
+.firstNameBox {
+    float: left;
+}
+
+.lastNameBox {
+    float: left;
+}
+
+.messageBox {
+
+    clear: both;
+    margin-bottom: 20px;
+}
+
+.inputMessage {
+    width: 100%;
+    height:100px;
+}
+
+.etcBox {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+label {
+    font-family: 'Pretendard';
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.sendBox {
+ background-color: rgb(236, 180, 12);
+ border: none;   
+ border-radius: 5px;
+ padding: 5px 30px 5px 30px;
+
+ color: aliceblue;
+}

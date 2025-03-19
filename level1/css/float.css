@@ -1,0 +1,38 @@
+
+.container {
+    width: 800px;
+    height: 800px;
+    background-color: lightgray;
+}
+
+
+.header {
+    width: 100%;
+    height: 15%;
+    background-color: aquamarine;
+}
+
+
+.leftMenu {
+    width: 30%;
+    height: 70%;
+    float: left;
+    background-color: rgb(158, 157, 219);
+}
+
+
+.main {
+    width: 70%;
+    height: 70%;
+    float: left;
+    background-color: rgb(209, 137, 197);
+}
+
+
+
+.footer {
+    width: 100%;
+    height: 15%;
+    clear: both;
+    background-color: rgb(107, 147, 116);
+}

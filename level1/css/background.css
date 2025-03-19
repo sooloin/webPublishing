@@ -1,0 +1,70 @@
+.mainBackground {
+    width: 100%;
+    height: 500px;
+    background-image: url(../img/boomPenguin.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 1px;
+
+    font-family: 'Pretendard';
+    position: relative;
+}
+
+.mainTitle {
+    font-size: 30px;
+    color: aliceblue;
+    
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto; /*가운데 정렬*/
+
+    top: 130px;
+}
+
+.contents {
+    font-size: 15px;
+    color: aliceblue;
+
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto; /*가운데 정렬*/
+
+    top: 180px;
+}
+
+.mainButton {
+    padding: 5px;
+    border: 1px solid gray;
+    border-radius: 5px;
+
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 215px;
+    width: 80px; /*얘 안해주면 버튼이 정말~ 길어져요 ㅎㅎㅎ*/
+}
+
+
+.subBox {
+    width: 90%;
+    height: auto;
+    background-color: lavender;
+    text-align: center;
+
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: -80px;
+
+}
+
+
+a {
+    text-decoration: none; /*링크 밑줄 없어짐*/
+    color: inherit; 
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table 과제</title>
+    <link href="css/tabel.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="contents">
+            <h3 class="Title">Your shopping cart</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>ITEM</th>
+                        <th>AMOUNT</th>
+                        <th>PRICE</th>
+                        <th>TOTAL</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="itemBox">
+                        <td class="item">
+                            <img src="img/boomPenguin.jpg">
+                            <div class="itemInfo">
+                                <h5>SONY</h5>
+                                <p>설명설명</p>
+                            </div>
+                        </td>
+                        <td class="amount">2</td>
+                        <td class="price">$3,000</td>
+                        <td class="total">$6,000</td>
+                    </tr>
+                    <tr class="itemBox">
+                        <td class="item">
+                            <img src="img/studyPenguin.jpg">
+                            <div class="itemInfo">
+                                <h5>SONY</h5>
+                                <p>설명설명</p>
+                            </div>
+                        </td>
+                        <td class="amount">1</td>
+                        <td class="price">$3,000</td>
+                        <td class="total">$3,000</td>
+                    </tr>
+                    <tr class="allTotal">
+                        <!-- <td class="total"></td>
+                        <td class="total"></td>
+                        <td class="total"></td> -->
+                        <td class="total" colspan="4">$9,000</td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="etcBox">
+                <a href="blog.html" class="loadToLink">Edit yout shopping cart</a>
+                <button class="payButton" type="submit">Choose payment method</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

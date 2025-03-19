@@ -1,0 +1,18 @@
+.grey {
+    background-color: lightgray;
+    height: 2000px;
+    margin-top: 500px;
+}
+
+.img {
+    float: right;
+    width: 400px;
+    position: sticky;
+    top: 100px; /*상단 어디에 고정될 것인가.*/
+}
+
+.text {
+    margin : 25px;
+    float: left;
+    width: 300px;
+}

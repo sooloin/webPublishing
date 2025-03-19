@@ -1,0 +1,28 @@
+%box {
+    padding : 10px;
+    margin: 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    font-family: 'Pretendard';
+}
+
+@mixin color($bg-color, $ft-color) {
+    background-color : $bg-color;
+    color: $ft-color;
+}
+
+div p {
+    @extend %box;
+}
+
+.b-g {
+    @include color(#DFF2D8, #3C763D);
+}
+
+.b-b {
+    @include color(#D9EDF7, #31708F);
+}
+
+.b-y {
+    @include color(#FCF8E3, #8A6D3B);
+}

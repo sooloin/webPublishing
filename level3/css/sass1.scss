@@ -1,0 +1,16 @@
+ul {
+    padding: 10px;
+
+    li {
+        list-style: none;
+        padding: 10px;
+        border: 1px solid lightgrey;
+        user-select: none; /* 텍스트 선택 방지 */
+    }
+
+    li:active {
+        background-color: #6fbaf8;
+        color: white;
+    }
+}
+

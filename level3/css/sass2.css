@@ -1,0 +1,22 @@
+div p {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  font-size: 12px;
+  font-family: "Pretendard";
+}
+
+.b-g {
+  background-color: #DFF2D8;
+  color: #3C763D;
+}
+
+.b-b {
+  background-color: #D9EDF7;
+  color: #31708F;
+}
+
+.b-y {
+  background-color: #FCF8E3;
+  color: #8A6D3B;
+}/*# sourceMappingURL=sass2.css.map */

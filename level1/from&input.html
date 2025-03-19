@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formInput 과제</title>
+    <link href="css/formInput.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <p class="Title">Contact us</p>
+        <div class="emailBox">
+            <p class="yourEmail">Your Email</p>
+            <form>
+                <input type="email" placeholder="email@example.com" class="inputEmail">
+            </form>
+        </div>
+        <div class="nameBox">
+            <div class="firstNameBox">
+                <p class="firstName">First name</p>
+                <form>
+                    <input type="text" name="inputFirstName">
+                </form>
+            </div>
+            <div class="lastNameBox">
+                <p class="lastName">Last name</p>
+                <form>
+                    <input type="text" name="inputFirstName">
+                </form>
+            </div>
+        </div>
+        <div class="messageBox">
+            <p class="message">Message</p>
+            <form>
+                <textarea class="inputMessage"></textarea>
+                <!-- <input type="text" class="inputMessage"> -->
+            </form>
+        </div>
+        <div class="etcBox">
+            <form>
+                <input id="sub" type="checkbox" class="checkSub">
+                <label for="sub">Subscribe</label>
+            </form>
+            <form>
+                <button type = "submit" class="sendBox">SEND</button>
+            </form>
+        </div>
+    </div>
+</html>

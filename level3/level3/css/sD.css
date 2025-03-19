@@ -1,0 +1,20 @@
+.pr {
+    width: 200px;
+    height: 50px;
+    
+    appearance: none;
+}
+
+progress::-webkit-progress-value {
+    appearance: none;
+    background-color: lavender;
+    box-shadow: 1px 0px 2px rgb(220, 220, 220);
+    border-radius: 5px;
+}
+
+progress::-webkit-progress-bar {
+    appearance: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px rgb(220, 220, 220);
+    background-color: lavenderblush;
+}

@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Pretendard';
+}
+
+body {
+    margin: 5px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    /* min-width: 360px; */
+    /* max-width: 1980px; */
+}
+
+.nav-bar {
+    display: flex;
+    padding: 5px;
+    background-color: aliceblue;
+}
+
+.nav-font > div {
+    margin-left: 10x;
+    margin-right: 10px;
+    text-align: center;
+    justify-content: center;
+}
+
+.main-container {
+    width: 100%;
+    height: auto;
+    /* background-image: url(../img/boomPenguin.jpg);
+    background-size: cover;
+    background-repeat: no-repeat; */
+    background-color: #fafafa;
+    padding: 20px;
+}
+
+.main-container button {
+    margin: 40px;
+    padding: 10px 20px 10px 20px;
+    border: 1px solid lightgray; 
+    border-radius: 5px;
+    background-color: white;
+
+    font-weight: 500;
+}
+
+.share-font {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+}
+
+.main-title {
+    font-size: 32px;
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position : relative;
+    top: -40px;
+}
+
+.ft-container {
+    width: 70%;
+    padding: 10px 10px 30px 10px;
+    background-color: lightgray;
+}
+
+@media screen and (max-width : 768px) {
+    .main-title {
+        font-size: 24px;
+    }
+}

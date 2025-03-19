@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Pretendard';
+}
+
+body {
+    margin: 0px;
+}
+
+.container {
+    background-color: rgb(203, 219, 230);
+    padding: 40px;
+}
+
+.contents {
+    width: 100%;
+    height: auto;
+}
+
+.Title {
+    margin-bottom: 5%;
+    font-size: 24px;
+    font-weight: 800;
+    color: rgb(47, 72, 102);
+}
+
+table {
+    border-collapse : collapse;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+}
+
+th, td{
+    padding: 10px;
+    font-size: 14px;
+    
+}
+
+th, .price, .amount {
+    color: rgb(122, 165, 179);
+}
+
+img {
+    width: 30%;
+    margin: 7px;
+}
+
+.itemBox {
+    border-top: 1px solid rgb(203, 219, 230);
+    border-bottom: 1px solid rgb(203, 219, 230);
+    font-weight: 700;
+}
+
+.allTotal {
+    font-weight: 700;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    
+}
+
+
+td h5 {
+    margin-bottom: -10%;
+    font-size: 14px;
+}
+
+td p {
+    font-size: 12px;
+    color: rgb(122, 165, 179);
+}
+
+.amount, .price, .total {
+    text-align: right;
+}
+
+.amount, .price {
+    color : rgb(122, 165, 179);
+}
+
+.total {
+    color: rgb(47, 72, 102);
+}
+
+.etcBox {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* 수직 정렬 flex를 사용했기 때문에 적용이 안되는 거임! */
+}
+
+.loadToLink {
+    font-size: 14px;
+    font-weight: 700;
+    color: rgb(47, 72, 102);
+}
+
+.payButton {
+    background-color: rgb(47, 72, 102);
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+    color: #FFFFFF;
+    font-weight: 500;
+
+    cursor : pointer; 
+    /* 누를 수 있다는 듯한 그런 */
+}
+
+.payButton:hover {
+    background-color: chocolate;
+}
+/* 마우스 올렸을 때 그런 */
+
+.payButton:focus { 
+    background-color: gray;
+} 
+/* 커서 찍혀있을 때 스타일 */
+
+.payButton:active { 
+    background-color: brown;
+} 
+/* 클릭 중 스타일 */
+
+

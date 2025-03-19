@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Pretendard';
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 100px 100px 100px;
+    grid-gap: 10px;
+    grid-template-areas: 
+    "header header header header"
+    "side side cont cont"
+    "side side cont cont"
+}
+
+.grid-container div {
+    background-color: rgb(199, 230, 240);
+}
+
+.grid-nav {
+    grid-area: header;
+}
+
+.grid-sidebar{
+    grid-area: side;
+}
+
+.grid-content {
+    grid-area: cont;
+}
